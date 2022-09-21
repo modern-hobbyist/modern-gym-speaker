@@ -16,4 +16,5 @@ defined(__AVR_ATmega88PB__)
 #  if !defined(IR_USE_AVR_TIMER1) && !defined(IR_USE_AVR_TIMER2)
 #define IR_USE_AVR_TIMER1   // Uncomment this line
 //#define IR_USE_AVR_TIMER2     // Comment this line OUT
-#  endif ```
+#  endif 
+```
