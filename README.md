@@ -14,6 +14,6 @@ library and change the default timer from Timer2 to Timer1
 defined(__AVR_ATmega168__) || defined(__AVR_ATmega88P__) || 
 defined(__AVR_ATmega88PB__)
 #  if !defined(IR_USE_AVR_TIMER1) && !defined(IR_USE_AVR_TIMER2)
-#define IR_USE_AVR_TIMER1   // send pin = pin 9
-//#define IR_USE_AVR_TIMER2     // send pin = pin 3
+#define IR_USE_AVR_TIMER1   // Uncomment this line
+//#define IR_USE_AVR_TIMER2     // Comment this line OUT
 #  endif ```
